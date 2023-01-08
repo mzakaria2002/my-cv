@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       env: production
-  replicas: 1
+  replicas: 2
   template:
       metadata:
         name: myapp
